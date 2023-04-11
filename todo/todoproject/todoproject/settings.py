@@ -78,7 +78,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Kichuaswith$tododatabase',
-        'USER':'Kichuaswith'.
+        'USER':'Kichuaswith',
         'PASSWORD':'Kichu@97',
         'HOST':'Kichuaswith.mysql.pythonanywhere-services.com',
     }
