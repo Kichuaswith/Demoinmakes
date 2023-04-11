@@ -76,8 +76,11 @@ WSGI_APPLICATION = 'todoproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'Kichuaswith$tododatabase',
+        'USER':'Kichuaswith'.
+        'PASSWORD':'Kichu@97',
+        'HOST':'Kichuaswith.mysql.pythonanywhere-services.com',
     }
 }
 
